@@ -20,13 +20,12 @@ header ul {
 	 display: flex;
 	 justify-content: space-between;
 }
- li {
-	 text-decoration: none;
- }
 .bottom {
 	// display: inline-block;
 	height: 44px;
 	// text-decoration: none;
+	display: flex;
+	justify-content: space-around;
 }
 .bottom li {
 	display: inline-block;
@@ -34,6 +33,9 @@ header ul {
 .extras ul {
 	margin: 0;
 	display: inline-block;
+}
+.body {
+	background-color: #f1f1f5;
 }
 aside {
 	width: 321px; 
@@ -51,6 +53,12 @@ main {
 	margin: 3px;
 	width: 226px;
 	display: inline-block;
+
+	.item-title {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
 }
 footer {
 	clear: both;
@@ -63,6 +71,8 @@ footer ul {
 	height: 103px;
 	border: 1px solid #ccc;
 	// display: inline-block;
+	display: flex;
+	justify-content: center;
 }
 .footermiddle {
 	height: 203px;
