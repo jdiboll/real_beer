@@ -13,6 +13,6 @@ function displayItem(item) {
 		<div class="image-photo">
 			<img src="${productOne}" alt"${product.description}">
 		</div>
-	<div class="price">${product.price}</div>;
+	<div class="price">${product.price}</div>; `
 
 }
