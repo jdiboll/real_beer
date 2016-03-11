@@ -7,12 +7,13 @@
 .app {
 	margin: 0;
 }
-a {
-
-}
 header {
 	height: 221px;
 	border: 1px solid #ccc;
+	// list-style: none;
+}
+header ul {
+	list-style: none;
 }
 .top {
 	height: 177px;
@@ -23,36 +24,59 @@ header {
 	 text-decoration: none;
  }
 .bottom {
-	display: inline-block;
+	// display: inline-block;
 	height: 44px;
-	text-decoration: none;
+	// text-decoration: none;
 }
-.extras {
+.bottom li {
+	display: inline-block;
+}
+.extras ul {
 	margin: 0;
+	display: inline-block;
 }
 aside {
 	width: 321px; 
 	border: 1px solid #ccc;
 	float: left;
-	list-style-type: none;
+	list-style: none;
 }
 main {
 	float: right;
+	width: calc(100% - 321px;);
+}
+.image {
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 3px;
+	width: 226px;
+	display: inline-block;
 }
 footer {
 	clear: both;
+	// list-style: none;
+}
+footer ul {
+	list-style: none;
 }
 .footertop {
 	height: 103px;
 	border: 1px solid #ccc;
+	// display: inline-block;
 }
 .footermiddle {
 	height: 203px;
 	border: 1px solid #ccc;
+	// display: inline-block;
 }
+.footermiddle div {
+	display: inline-block;
+}
+
 .footerbottom {
 	height: 135px;
 	border: 1px solid #ccc;
+	// display: inline-block;
 }
 
 

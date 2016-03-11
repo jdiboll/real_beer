@@ -1,18 +1,24 @@
 // Javascript Entry Point
-import etsyData from './items';
+import beerStuff from './items';
 import $ from 'jquery';
 
-var products = etsyData.results;
+var items = beerStuff.results;
 
 
 function displayItem(item) {
-	var productOne = product.Images[0].url_75x75;
+	var productOne = item.Images[0].url_75x75;
 
 	return ` 
 	<div class="image">
 		<div class="image-photo">
-			<img src="${productOne}" alt"${product.description}">
+			<img src="${productOne}" alt"${item.description}">
 		</div>
-	<div class="price">${product.price}</div>; `
-
+	<div class="seller">${item.shop_name}</div>
+	<div class="price">${item.price} + "USD"</div>
+	<div class="item-title">${item.title}</div>
+	</div> `;
 }
+
+items.forEach(function(item) {
+$('main').append(displayItem(item));
+});
