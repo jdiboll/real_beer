@@ -1,1 +1,19 @@
 /* CSS Entry Point */
+.app {
+	margin: 0;
+}
+header {
+	height: 44px;
+	border: 1px solid #ccc;
+}
+.top {
+	height: 177px;
+	display: flex;
+	justify-content:flex-start;
+}
+li {
+	text-decoration: none;
+}
+.bottom: {
+	display: inline block;
+}
