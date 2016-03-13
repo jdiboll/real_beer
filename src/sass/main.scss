@@ -6,10 +6,12 @@
 
 .app {
 	margin: 0;
+	background-color: #f5f5f1;
 }
 header {
 	height: 125px;
 	border: 1px solid #ccc;
+	background-color: white;
 	// list-style: none;
 }
 header ul {
@@ -27,6 +29,10 @@ header ul {
 	padding-left: 30px;
 	color: #f76400;
 	text-decoration: none;
+}
+.searchInput input {
+	height: 34px;
+	font-size: 13px;
 }
  .searchInput button {
 	background-color: #2ba8c6;
@@ -47,6 +53,7 @@ header ul {
 	color: #2ba8c6;
 	border-radius: 3px;
 	padding-left: 0;
+	height: 34px;
 }
 
 .bottom {
@@ -76,6 +83,7 @@ aside {
 	float: left;
 	list-style: none;
 	margin-left: 130px;
+	background-color: white;
 }
 aside h4 {
 	padding-left: 2px;
@@ -102,9 +110,26 @@ aside h4 {
 .nav2 {
 	border: 1px solid #e1e3df;
 	font-size: 16px;
+	padding-left: 4px;
 }
-.itemType {
-	display: block;
+.nav2 input {
+	display: inline-block;
+}
+.nav2 span {
+	color: #2ba8c6;
+}
+//.nav2 a {
+	//height: 15px;
+	//width: 15px;
+	//border: 1px solid #ccc;
+//}
+.colors {
+	height: 22px;
+	width: 22px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	border-radius: 3px;
+	
 }
 main {
 	float: right;
@@ -116,6 +141,7 @@ main {
 	margin: 3px;
 	width: 226px;
 	display: inline-block;
+	background-color: white;
 
 	.item-title {
 		white-space: nowrap;
@@ -134,13 +160,31 @@ footer ul {
 	height: 103px;
 	border: 1px solid #ccc;
 	// display: inline-block;
-	display: flex;
-	justify-content: center;
+	//display: flex;
+	//justify-content: center;
+	background-color: #f5f5f1;
+	text-align: center;
+	padding: 20px;
+}
+.email input {
+	 text-align: center;
+	height: 34px;
+	//max-width: auto;
+	width: 250px;
+}
+.email button {
+	height: 34px;
+	border-radius: 3px;
+	background-color: #2ba8c6;
+	color: white;
 }
 .footermiddle {
-	height: 203px;
+	height: 291px;
 	border: 1px solid #ccc;
 	// display: inline-block;
+	display: flex;
+	justify-content: center;
+	background-color: #f5f5f1;
 }
 .footermiddle li {
 	color: #2ba8c6;
@@ -150,11 +194,32 @@ footer ul {
 .footermiddle div {
 	display: inline-block;
 }
-
 .footerbottom {
 	height: 135px;
 	border: 1px solid #ccc;
+	text-align: center;
+	//align-content: flex-end;
 	// display: inline-block;
+	background-color: #f5f5f1;
+}
+.alinks {
+	padding-top: 50px;
+}
+.alinks a{
+	text-decoration: none;
+	padding: 5px;
+	color: #666;
+	font-size: 13px;
+	border: 1px solid #ccc;
+}
+.alinks button {
+	width: 140px;
+	margin-left: 44px;
+	height: 34px;
+}
+.spanbottom span {
+	padding-right: 7px;
+	font-size: 12px;
 }
 
 
