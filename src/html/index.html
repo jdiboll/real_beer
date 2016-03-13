@@ -40,9 +40,9 @@
   			
   		</main>
   		<aside>
-  			<h3>Show results for:</h3>
+  			<h4>Show results for:</h4>
   			<nav class="nav1">
-  				<ul>All categories</ul>
+  				<ul><h4>All categories</h4></ul>
   					<li>Home & Living</li>
   					<li>Arts & Collectibles</li>
   					<li>Clothing</li>
@@ -59,16 +59,19 @@
   					<li>Pet Supplies</li>
   					<li>Shoes</li>
       	</nav>
-          <h3>Refine your search</h3>
+          <h4>Refine your search</h4>
   			<nav class="nav2">
           <div class= "itemType">
-            <p>Item type</p>
-            <a href="#" class="radio_label" text="All Items"></a>
-            <a href="#" class="radio_label" text="Homemade"></a>
-            <a href="#" class="radio_label" text="Vintage"></a>
+            <h4>Item type</h4>
+            <input type="radio" id="radio01" name="radio" />
+            <label for="radio01"><span>All Items</span></label>
+            <input type="radio" id="radio02" name="radio" />
+            <label for="radio02"><span>Homemade</span></label>
+            <input type="radio" id="radio03" name="radio" />
+            <label for="radio03"><span>Vintage</span></label>
           </div>
           <div class="price">
-            <p>Price ($)</p>
+            <h4>Price ($)</h4>
               <input type="text" placeholder="Low">to<input type="text" placeholder="High"><button>Arrow</button>
             </div>
             <div class="color">
@@ -83,17 +86,19 @@
               <a href="#" class="swatch"></a>
             </div>
             <div class="ordering">
-              <P>Ordering Options</P>
-              <a href="#" class="checkbox-label">"Accepts Etsy gift cards"</a>
-              <a href="#" class="checkbox-label">"Customizable"</a>
+              <h4>Ordering Options</h4>
+              <input type="checkbox" id="check01" name="checkbox" />
+              <label for="check01"><span>Accepts Etsy gift cards</span></label>
+              <input type="checkbox" id="check02" name="checkbox" />
+              <label for="check02"><span>Customize</span></label>
             </div>
             <div class="location">
-              <p>Shop location</p>
+              <h4>Shop location</h4>
               <a href="#" class="radio-label">"Anywhere"</a>
               <a href="#" class="radio-label">"United States"</a>
             </div>
             <div class="ship">
-              <p>Ship to</p>
+              <h4>Ship to</h4>
               <input class="text" placeholder="United States"></input>
             </div>
         </nav>
@@ -102,14 +107,14 @@
   	<footer>
   		<footer class="footertop">
         <div class="email">
-          <h2>Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h2>
+          <h4>Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h4>
           <input class="text" placeholder="Enter your email"></input>
           <button>Subscribe</button>
           </div>
       </footer>
   		<footer class="footermiddle">
         <div class="column1">
-          <h2>Turn your passion into a business.</h2>
+          <h4>Turn your passion into a business.</h4>
           <button>Open a shop</button>
           <ul><p>Sell on Etsy</p>
             <li>Seller handbook</li>
