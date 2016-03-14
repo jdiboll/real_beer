@@ -13,9 +13,11 @@ function displayItem(item) {
 		<div class="image-photo">
 			<img src="${productOne}" alt"${item.description}">
 		</div>
-	<div class="seller">${item.Shop.shop_name}</div>
-	<div class="price">${item.price} USD</div>
 	<div class="item-title">${item.title}</div>
+	<div class="seller">${item.Shop.shop_name}</div>
+	<div class="price">$${item.price} USD</div>
+	<div class="burger"</div>
+	<div class="heart"</div>
 	</div> `;
 }
 

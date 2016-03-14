@@ -187,7 +187,7 @@ main {
 }
 .image {
 	border: 1px solid #ccc;
-	padding: 8px;
+	padding: 0;
 	margin: 5px;
 	width: 226px;
 	height: 229px;
@@ -195,24 +195,36 @@ main {
 	background-color: white;
 	overflow: hidden;
 
+	img {
+		width: 100%;
+		height: 181px;
+	}
+}
+
 
 	.item-title {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		font-size: 12px;
+}
 
 	.seller {
-		font-size: 12px;
+		font-size: 13px;
+		//padding-top: 3px;
+		display: inline-block;
 
+}
 
 	.price {
 		color: #76c238;
-		font-size: 12px;
-	}
-	  }
-	}	
-}
+		font-size: 13px;
+		float: right;
+		padding-bottom: 12px;
+		margin-bottom: 4px;
+}	  
+		
+
 footer {
 	clear: both;
 	// list-style: none;
