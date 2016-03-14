@@ -24,21 +24,39 @@ header ul {
 	 align-items: center;
 	 text-decoration: none;
 }
+.logo {
+	display: flex;
+	//justify-content: flex-start;
+	justify-content: center;
+}
 .logo  a {
 	font-size: 50px;
 	padding-left: 30px;
 	color: #f76400;
 	text-decoration: none;
 }
+//.searchInput {
+	//float:left !important;
+//}
 .searchInput input {
+	//display: flex;
+	//justify-content: center;
+	margin-left: 20px;
+	margin-top: 13px;
 	height: 34px;
 	font-size: 13px;
+	float: left;
+	width: 240px;
 }
  .searchInput button {
 	background-color: #2ba8c6;
+	margin-top: 13px;
 	color: white;
 	border-radius: 3px;
 	height: 34px;
+	border: 1px solid #d6d6d6;
+	font-size: 14px;
+	width: 79px;
 }
 //.topanchor {
 	//justify-content: end;
@@ -54,6 +72,8 @@ header ul {
 	border-radius: 3px;
 	padding-left: 0;
 	height: 34px;
+	border: 1px solid #d6d6d6;
+	font-size: 14px;
 }
 
 .bottom {
@@ -79,7 +99,7 @@ header ul {
 }
 aside {
 	width: 239px; 
-	border: 1px solid #ccc;
+	//border: 1px solid #ccc;
 	float: left;
 	list-style: none;
 	margin-left: 130px;
@@ -88,6 +108,12 @@ aside {
 aside h4 {
 	padding-left: 2px;
 	margin-bottom: 10px;
+	// background-color: #f5f5f1;
+}
+.heading {
+	background-color: #f5f5f1;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 .nav1 {
 	border: 1px solid #e1e3df;
@@ -100,6 +126,7 @@ aside h4 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-left: 2px;
+	// background-color: #f5f5f1;
 }
 .nav1 li {
 	color: #2ba8c6;
@@ -110,13 +137,26 @@ aside h4 {
 .nav2 {
 	border: 1px solid #e1e3df;
 	font-size: 16px;
-	padding-left: 4px;
+	padding-left: 10px;
 }
-.nav2 input {
-	display: inline-block;
+
+.itemType {
+	display: block;
+	//border-bottom: 1px solid #ccc;
+
 }
 .nav2 span {
 	color: #2ba8c6;
+}
+.price input {
+	height: 38px;
+	width: 72px;
+	border-radius: 4px;
+	border: 1px solid #d6d6d6;
+	background-color: white;
+	font-size: 13px;
+	margin: 3px;
+	text-align: center;
 }
 //.nav2 a {
 	//height: 15px;
@@ -129,25 +169,49 @@ aside h4 {
 	border: 1px solid #ccc;
 	display: inline-block;
 	border-radius: 3px;
-	
+}
+.ship input {
+	height: 34px;
+	border: 1px solid #d6d6d6;
+	border-radius: 3px;
+	background-color: white;
+	width: 190px;
+	padding: 5px;
+	margin: 9px;
 }
 main {
 	float: right;
 	width: calc(100% - 369px;);
+	padding-left: 18px;
+	padding-top: 18px;
 }
 .image {
 	border: 1px solid #ccc;
-	padding: 5px;
-	margin: 3px;
+	padding: 8px;
+	margin: 5px;
 	width: 226px;
+	height: 229px;
 	display: inline-block;
 	background-color: white;
+	overflow: hidden;
+
 
 	.item-title {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+		font-size: 12px;
+
+	.seller {
+		font-size: 12px;
+
+
+	.price {
+		color: #76c238;
+		font-size: 12px;
 	}
+	  }
+	}	
 }
 footer {
 	clear: both;
@@ -158,13 +222,17 @@ footer ul {
 }
 .footertop {
 	height: 103px;
-	border: 1px solid #ccc;
+	//border: 1px solid #ccc;
 	// display: inline-block;
 	//display: flex;
 	//justify-content: center;
 	background-color: #f5f5f1;
 	text-align: center;
 	padding: 20px;
+	padding-bottom: 20px;
+}
+.email {
+	margin-bottom: 10px;
 }
 .email input {
 	 text-align: center;
@@ -177,33 +245,47 @@ footer ul {
 	border-radius: 3px;
 	background-color: #2ba8c6;
 	color: white;
+	border: 1px solid #d6d6d6;
+	width: 95px;
+	font-size: 14px;
 }
 .footermiddle {
 	height: 291px;
-	border: 1px solid #ccc;
+	//border: 1px solid #ccc;
 	// display: inline-block;
 	display: flex;
 	justify-content: center;
 	background-color: #f5f5f1;
+	padding-top: 40px;
+	margin-top: 20px;
 }
 .footermiddle li {
 	color: #2ba8c6;
-	padding: 2px;
+	padding: 4px;
 	font-size: 15px;
 }
 .footermiddle div {
 	display: inline-block;
 }
+.column1 button{
+	background-color: #2ba8c6;
+	border-radius: 4px;
+	border: 1px solid #d6d6d6;
+	color: white;
+	width: 104px;
+	height: 34px;
+	font-size: 14px;
+}
 .footerbottom {
 	height: 135px;
-	border: 1px solid #ccc;
+	//border: 1px solid #ccc;
 	text-align: center;
 	//align-content: flex-end;
 	// display: inline-block;
 	background-color: #f5f5f1;
 }
 .alinks {
-	padding-top: 50px;
+	padding-top: 70px;
 }
 .alinks a{
 	text-decoration: none;
@@ -216,6 +298,11 @@ footer ul {
 	width: 140px;
 	margin-left: 44px;
 	height: 34px;
+	background: transparent;
+	border-radius: 3px;
+	border: 1px solid #d6d6d6;
+	font-size: 15px;
+
 }
 .spanbottom span {
 	padding-right: 7px;
